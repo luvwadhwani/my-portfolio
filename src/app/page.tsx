@@ -6,9 +6,9 @@ import { Code, Database, CheckCircle, Wrench } from "lucide-react";
 
 export default function Home() {
     return (
-        <div className="text-white" style={{ background: "#41A4F5" }}>
+        <div style={{ background: "#41A4F5" }}>
             {/* Hero Section */}
-            <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left px-6 py-16">
+            <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left px-6 py-16 text-white">
                 <Image src={profile} alt="Profile Image" width={200} height={200} />
 
                 <div className="ml-8">
@@ -27,7 +27,7 @@ export default function Home() {
             <section className="bg-gray-100 py-16 px-6 text-center">
                 <h2 className="text-3xl font-bold">Skills Overview</h2>
                 <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-                    I have more than 8 years`&apos;` experience building rich web applications for clients worldwide.
+                    I have more than 8 years&apos; experience building rich web applications for clients worldwide.
                     Below is a quick overview of my main technical skill sets and tools.
                     <br />
                     <a href="#" className="text-blue-500 hover:underline">
@@ -36,7 +36,7 @@ export default function Home() {
                 </p>
 
                 {/* Skills Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-6xl mx-auto">
                     {/* Frontend Card */}
                     <Card className="bg-white p-6 rounded-lg shadow-md">
                         <div className="flex justify-center -mt-12">
